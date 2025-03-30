@@ -48,7 +48,7 @@
         .social-icons {
           display: flex;
           justify-content: center;
-          margin: 0 15px;
+          gap: 15px;
         }
         .social-icon {
           font-size: 30px;
