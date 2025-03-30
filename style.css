@@ -1,0 +1,101 @@
+
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        
+        a {
+            color: #fff;
+        }
+        a:visited {
+            color: #ddd;
+        }
+
+        .profile-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #333;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            text-transform: lowercase;
+            margin-bottom: 15px;
+        }
+
+        .bio {
+            font-size: 14px;
+            opacity: 0.8;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            font-size: 14px;
+        }
+
+        .social-icons {
+          display: flex;
+          justify-content: center
+          gap: 15px;
+        }
+        .social-icon {
+          font-size: 30px;
+          color: lightgray; /* Default color */
+          transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-icon:hover {
+          transform: scale(1.1); /* Slight zoom effect on hover */
+        }
+
+/* Hover effects for specific platforms */
+.social-icon.instagram:hover {
+  color: #E1306C; /* Instagram color */
+}
+
+.social-icon.x:hover {
+  color: #1D9BF0; /* X (formerly Twitter) color */
+}
+
+.social-icon.bluesky:hover {
+  color: #1F74F7; /* Bluesky color */
+}
+
+.social-icon.facebook:hover {
+  color: #1877F2; /* Facebook color */
+}
+
+.social-icon.cashapp:hover {
+  color: #00B16A; /* Cash App color */
+}
+
+.social-icon.reddit:hover {
+  color: #FF4500; /* Reddit color */
+}
+
+.social-icon.tiktok:hover {
+  color: #000000; /* TikTok color */
+}
+
+.social-icon.amazon:hover {
+  color: #FF9900; /* Amazon color */
+}
+
+.social-icon.github:hover {
+  color: #211F1F; /* GitHub color */
+}
+.mapleleaf {
+    color: #D10000;
+}
