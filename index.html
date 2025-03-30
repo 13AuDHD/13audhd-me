@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>13AuDHD | Thirteen Nebula</title>
       <!-- Font Awesome CDN -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #111;
@@ -25,14 +25,15 @@
             height: 120px;
             border-radius: 50%;
             object-fit: cover;
-            border: 2px solid #fff;
+            border: 2px solid #333;
             margin-bottom: 10px;
         }
 
         .name {
             font-size: 24px;
             font-weight: bold;
-            margin-bottom: 5px;
+            text-transform: lowercase;
+            margin-bottom: 15px;
         }
 
         .bio {
@@ -41,80 +42,64 @@
             margin-bottom: 20px;
         }
 
-        .links {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            width: 80%;
-            max-width: 300px;
+        .footer {
+            font-size: 1rem;
         }
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
 
-        .link {
-            background-color: #333;
-            color: #fff;
-            text-decoration: none;
-            padding: 12px;
-            border-radius: 8px;
-            font-size: 16px;
-            transition: 0.3s;
-        }
+.social-icon {
+  font-size: 30px;
+  color: lightgray; /* Default color */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
 
-        .link:hover {
-            background-color: #555;
-        }
+.social-icon:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
 
-        .icons {
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            margin-top: 20px;
-        }
+/* Hover effects for specific platforms */
+.social-icon.instagram:hover {
+  color: #E1306C; /* Instagram color */
+}
 
-        .icon {
-            width: 30px;
-            height: 30px;
-            transition: 0.3s;
-        }
+.social-icon.x:hover {
+  color: #1D9BF0; /* X (formerly Twitter) color */
+}
 
-        .icon:hover {
-            opacity: 0.7;
-        }
-        
-        .social-icons {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-        }
-        .social-icon {
-            font-size: 30px;
-            color: lightgray; /* Default color */
-            transition: color 0.3s ease, transform 0.3s ease;
-        }
+.social-icon.bluesky:hover {
+  color: #1F74F7; /* Bluesky color */
+}
 
-  .social-icon:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
-  }
+.social-icon.facebook:hover {
+  color: #1877F2; /* Facebook color */
+}
 
-  /* Hover effects for specific platforms */
-  .social-icon.instagram:hover {
-    color: #E1306C; /* Instagram color */
-  }
+.social-icon.cashapp:hover {
+  color: #00B16A; /* Cash App color */
+}
 
-  .social-icon.twitter:hover {
-    color: #1DA1F2; /* Twitter color */
-  }
+.social-icon.reddit:hover {
+  color: #FF4500; /* Reddit color */
+}
 
-  .social-icon.bluesky:hover {
-    color: #1F74F7; /* Bluesky color */
-  }
+.social-icon.tiktok:hover {
+  color: #000000; /* TikTok color */
+}
 
-  .social-icon.facebook:hover {
-    color: #1877F2; /* Facebook color */
-  }
+.social-icon.amazon:hover {
+  color: #FF9900; /* Amazon color */
+}
 
-  .social-icon.cashapp:hover {
-    color: #00B16A; /* Cash App color */
-  }
+.social-icon.github:hover {
+  color: #211F1F; /* GitHub color */
+}
+.mapleleaf {
+    color: #D10000;
+}
     </style>
 </head>
 <body>
@@ -122,15 +107,22 @@
     <img src="images/profile-logo.jpeg" alt="Profile Picture" class="profile-logo">
     
     <div class="name">Thirteen Nebula</div>
-    <div class="bio">autistic ∞ adhd. non-binary. you probably won’t like me.</div>
+    <div class="bio">autistic ∞ adhd. non-binary.<br />you probably won’t like me.</div>
     
     <div class="social-icons">
-        <a href="https://instagram.com/13audhd" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
-        <a href="https://twitter.com/13audhd" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
-        <a href="https://bsky.app/profile/13audhd" target="_blank" class="social-icon bluesky"><i class="fab fa-twitter"></i></a>
-        <a href="https://facebook.com/13audhd" target="_blank" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
-        <a href="https://cash.app/$13audhd" target="_blank" class="social-icon cashapp"><i class="fab fa-cc-visa"></i></a>
+        <a href="https://instagram.com/13audhd" target="_blank" class="social-icon instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.reddit.com/user/13audhd" target="_blank" class="social-icon reddit"><i class="fa-brands fa-reddit"></i></a> <!-- Reddit -->
+        <a href="https://x.com/13audhd" target="_blank" class="social-icon x"><i class="fa-brands fa-x"></i></a> <!-- X (Formerly Twitter) -->
+        <a href="https://bsky.app/profile/13audhd" target="_blank" class="social-icon bluesky"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.tiktok.com/@13audhd" target="_blank" class="social-icon tiktok"><i class="fa-brands fa-tiktok"></i></a> <!-- TikTok -->
+        <a href="https://facebook.com/13audhd" target="_blank" class="social-icon facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://cash.app/$13audhd" target="_blank" class="social-icon cashapp"><i class="fa-brands fa-cc-visa"></i></a>
+        <a href="https://www.amazon.com/gift-central/13audhd" target="_blank" class="social-icon amazon"><i class="fa-brands fa-amazon"></i></a> <!-- Amazon Gift List -->
+        <a href="https://github.com/13audhd" target="_blank" class="social-icon github"><i class="fa-brands fa-github"></i></a> <!-- GitHub -->
     </div>
 
+    <div class="footer">
+        <p>i stand with Canada <i class="fa-brands fa-canadian-maple-leaf mapleleaf"></i></p>
+        
 </body>
 </html>
