@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>13AuDHD | Thirteen Nebula</title>
+      <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #111;
@@ -18,7 +20,7 @@
             margin: 0;
         }
 
-        .profile-img {
+        .profile-logo {
             width: 120px;
             height: 120px;
             border-radius: 50%;
@@ -77,28 +79,57 @@
         .icon:hover {
             opacity: 0.7;
         }
+        
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .social-icon {
+            font-size: 30px;
+            color: lightgray; /* Default color */
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+  .social-icon:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+
+  /* Hover effects for specific platforms */
+  .social-icon.instagram:hover {
+    color: #E1306C; /* Instagram color */
+  }
+
+  .social-icon.twitter:hover {
+    color: #1DA1F2; /* Twitter color */
+  }
+
+  .social-icon.bluesky:hover {
+    color: #1F74F7; /* Bluesky color */
+  }
+
+  .social-icon.facebook:hover {
+    color: #1877F2; /* Facebook color */
+  }
+
+  .social-icon.cashapp:hover {
+    color: #00B16A; /* Cash App color */
+  }
     </style>
 </head>
 <body>
 
-    <img src="your-profile-image.jpg" alt="Profile Picture" class="profile-img">
+    <img src="images/profile-logo.jpeg" alt="Profile Picture" class="profile-logo">
     
     <div class="name">Thirteen Nebula</div>
     <div class="bio">autistic ∞ adhd. non-binary. you probably won’t like me.</div>
-
-    <div class="links">
-        <a href="https://13audhd.example.com" class="link" target="_blank">13</a>
-        <a href="https://instagram.com/13audhd" class="link" target="_blank">insta</a>
-        <a href="https://twitter.com/13audhd" class="link" target="_blank">twitter</a>
-    </div>
-
-    <div class="icons">
-        <a href="https://instagram.com/yourhandle" target="_blank">
-            <img src="instagram-icon.png" alt="Instagram" class="icon">
-        </a>
-        <a href="https://twitter.com/yourhandle" target="_blank">
-            <img src="twitter-icon.png" alt="Twitter" class="icon">
-        </a>
+    
+    <div class="social-icons">
+        <a href="https://instagram.com/13audhd" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/13audhd" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://bsky.app/profile/13audhd" target="_blank" class="social-icon bluesky"><i class="fab fa-twitter"></i></a>
+        <a href="https://facebook.com/13audhd" target="_blank" class="social-icon facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://cash.app/$13audhd" target="_blank" class="social-icon cashapp"><i class="fab fa-cc-visa"></i></a>
     </div>
 
 </body>
