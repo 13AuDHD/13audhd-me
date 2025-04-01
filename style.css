@@ -55,8 +55,8 @@
         }
 
 	.button-container {
-		width: 90vw;
 		display: flex;
+		flex-direction: column;
 		gap: 10px;
 	}
 
