@@ -20,6 +20,7 @@
         }
 
 	button {
+		display: block;
 		flex: 1;
 		color: #fff;
 		background-color: #000;
@@ -91,7 +92,7 @@
 	.social-icon.amazon { color: #FF9900; } /* Amazon color */
 
 	.flag {
-		display: flex;
+		display: inline;
 		justify-content: center;
 		align-items: center;
 		background: white;
