@@ -20,13 +20,14 @@
         }
 
 	button {
+		flex: 1;
 		color: #fff;
 		background-color: #000;
-		font-size: 19px;
+		font-size: 18px;
 		border-radius: 25px;
-		padding: 15px 50px;
+		padding: 15px 40px;
 		cursor: pointer;
-		margin-bottom: 10px;
+		white-space: nowrap;
 	}
 	button:hover {
 	}
@@ -44,7 +45,6 @@
 		font-size: 24px;
 		font-weight: bold;
 		text-transform: lowercase;
-		margin-bottom: 5px;
         }
 
         .bio {
@@ -52,6 +52,11 @@
 		opacity: 0.8;
 		margin-bottom: 15px;
         }
+
+	.button-container {
+		display: flex;
+		gap: 10px;
+	}
 
         .footer {
 		font-size: 12px;
@@ -62,7 +67,7 @@
         .social-icons {
 		display: flex;
 		justify-content: center;
-		gap: 15px;
+		gap: 18px;
         }
         .social-icon {
 		font-size: 24px;
@@ -81,8 +86,17 @@
 	.social-icon.cashapp:hover { color: #00B16A; } /* Cash App color */
 	.social-icon.reddit:hover { color: #FF4500; } /* Reddit color */
 	.social-icon.tiktok:hover { color: #000000; } /* TikTok color */
-	.social-icon.amazon:hover { color: #FF9900; } /* Amazon color */
 	.social-icon.github:hover { color: #211F1F; } /* GitHub color */
-	
-	.mapleleaf { color: #D10000; background: #FFF; }
-	.bars { color: #D10000; font-weight: 800; }
+
+	.social-icon.amazon { color: #FF9900; } /* Amazon color */
+
+	.flag {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: white;
+		border-left: 10px solid #D10000; /* Red left border */
+		border-right: 10px solid #D10000; /* Red right border */
+	.mapleleaf {
+		color: #D10000; 
+	}
