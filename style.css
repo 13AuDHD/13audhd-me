@@ -55,6 +55,7 @@
         }
 
 	.button-container {
+		width: 90vw;
 		display: flex;
 		gap: 10px;
 	}
