@@ -1,110 +1,107 @@
-
-        body {
-		background-color: #111;
-		color: #fff;
-		font-family: Arial, sans-serif;
-		text-align: center;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-		height: 99vh;
-		margin: 0;
-        }
-        
-        a {
-		color: #fff;
-        }
-        a:visited {
-		color: #ddd;
-        }
-
-	button {
-		flex: 1;
-		color: #fff;
-		background-color: #000;
-		font-size: 18px;
-		text-transform: none;
-		border-radius: 25px;
-		padding: 15px 40px;
-		cursor: pointer;
-		white-space: nowrap;
-	}
-	button:hover {
-	}
-
-        .profile-logo {
-		width: 120px;
-		height: 120px;
-		border-radius: 50%;
-		object-fit: cover;
-		border: 2px solid #333;
-		margin-bottom: 10px;
-        }
-
-        .name {
-		font-size: 24px;
-		font-weight: bold;
-		text-transform: lowercase;
-		margin-bottom: 10px;
-        }
-
-        .bio {
-		font-size: 14px;
-		opacity: 0.8;
-		margin-bottom: 15px;
-        }
-
-	.button-container {
-		display: flex;
-		flex-direction: column;
-		gap: 10px;
-		margin-bottom: 15px;
-	}
-
-        .footer {
-		font-size: 12px;
-		opacity: 0.8;
-		margin-top: 10px;
-        }
-
-        .social-icons {
-		display: flex;
-		justify-content: center;
-		gap: 12px;
-        }
-        .social-icon {
-		font-size: 16px;
-		color: lightgray; /* Default color */
-        }
-
-        .social-icon:hover {
-		transition: color 0.3s ease, transform 0.3s ease;
-        }
-
+body {
+	background-color: #111;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 99vh;
+	margin: 0;
+}
+	
+a {
+	color: #fff;
+}
+a:visited {
+	color: #ddd;
+}
+	
+button {
+	flex: 1;
+	color: #fff;
+	background-color: #000;
+	font-size: 18px;
+	text-transform: none;
+	border-radius: 25px;
+	padding: 15px 40px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+button:hover {
+}
+	
+.profile-logo {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 2px solid #333;
+	margin: 25px 0 10px;
+}
+	
+.name {
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: lowercase;
+	margin-bottom: 10px;
+}
+	
+.bio {
+	font-size: 14px;
+	opacity: 0.8;
+	margin-bottom: 15px;
+}
+	
+.button-container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 15px;
+}
+	
+.footer {
+	font-size: 12px;
+	opacity: 0.8;
+	margin-top: 10px;
+}
+	
+.social-icons {
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+}
+.social-icon {
+	font-size: 18px;
+	color: lightgray; /* Default color */
+}	
+.social-icon:hover {
+	transition: color 0.3s ease, transform 0.3s ease;
+}
 	/* Hover effects for specific platforms */
-	.social-icon.instagram:hover { color: #E1306C; } /* Instagram color */
-	.social-icon.twitter:hover { color: #1D9BF0; } /* Twitter color */
-	.social-icon.bluesky:hover { color: #1F74F7; } /* Bluesky color */
-	.social-icon.facebook:hover { color: #1877F2; } /* Facebook color */
-	.social-icon.cashapp:hover { color: #00B16A; } /* Cash App color */
-	.social-icon.reddit:hover { color: #FF4500; } /* Reddit color */
-	.social-icon.tiktok:hover { color: #000000; } /* TikTok color */
-	.social-icon.github:hover { color: #211F1F; } /* GitHub color */
-	.social-icon.codepen:hover { color: #CCCCCC; } /* Codepen color */
-
-	.social-icon.amazon { color: #FF9900; } /* Amazon color */
-
-	.fa-mug-saucer { color: #B05D0B; }
-	.fa-cannabis { color: #34B00B; }
-	.fa-heart { color: #D60606; }
-
-	.flag {
-		display: inline-block;
-		padding: 1px 3px;
-		margin: 5px;
-		color: #D10000; 
-		background: white;
-		border-left: 7px solid #D10000; /* Red left border */
-		border-right: 7px solid #D10000; /* Red right border */
-	}
+.social-icon.instagram:hover { color: #E1306C; } /* Instagram color */
+.social-icon.twitter:hover { color: #1D9BF0; } /* Twitter color */
+.social-icon.bluesky:hover { color: #1F74F7; } /* Bluesky color */
+.social-icon.facebook:hover { color: #1877F2; } /* Facebook color */
+.social-icon.cashapp:hover { color: #00B16A; } /* Cash App color */
+.social-icon.reddit:hover { color: #FF4500; } /* Reddit color */
+.social-icon.tiktok:hover { color: #000000; } /* TikTok color */
+.social-icon.github:hover { color: #211F1F; } /* GitHub color */
+.social-icon.codepen:hover { color: #CCCCCC; } /* Codepen color */
+	
+.social-icon.amazon { color: #FF9900; } /* Amazon color */
+	
+.fa-mug-saucer { color: #B05D0B; } /* brown mug */
+.fa-cannabis { color: #34B00B; } /* green leaf */ 
+.fa-heart { color: #D60606; } /* red heart */
+	
+.flag { /* Canadian Flag in CSS */
+	display: inline-block;
+	padding: 2px 3px;
+	margin: 5px;
+	color: #D10000; 
+	background: white;
+	border-left: 7px solid #D10000;
+	border-right: 7px solid #D10000;
+}
