@@ -25,12 +25,13 @@ a:visited {
 }
 	
 .profile-logo {
+	display: block;
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
 	object-fit: cover;
 	border: 2px solid #333;
-	margin: 25px 0 10px;
+	margin: 25px auto 10px;
 }
 	
 .name {
@@ -80,7 +81,7 @@ button:hover {
 	
 .social-icons {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	gap: 14px;
 }
 .social-icon {
