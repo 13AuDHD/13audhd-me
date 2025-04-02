@@ -73,10 +73,10 @@ button:hover {
 .social-icons {
 	display: flex;
 	justify-content: center;
-	gap: 12px;
+	gap: 14px;
 }
 .social-icon {
-	font-size: 18px;
+	font-size: 22px;
 	color: lightgray; /* Default color */
 }	
 .social-icon:hover {
