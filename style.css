@@ -111,6 +111,8 @@ button:hover {
 
 .signature {
     font-family: 'Caveat', cursive;
-    font-size: 1.5em; /* Adjust size as needed */
-    color: #333; /* Dark gray or whatever fits */
+    font-size: 2.5em;
+    color: #FFF; 
+    margin: 0 0 25px 50px;
+    text-align: left;
 }
