@@ -100,7 +100,7 @@
 	.fa-heart { color: #D60606; }
 
 	.flag {
-		display: block;
+		display: inline-block;
 		padding: 1px 3px;
 		margin: 5px;
 		color: #D10000; 
