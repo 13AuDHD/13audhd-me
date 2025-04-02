@@ -1,4 +1,4 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
 
 body {
@@ -83,7 +83,6 @@ button:hover {
 	
 .social-icons {
 	display: flex;
-	flex-direction: column;
 	justify-content: space-between;
 	gap: 14px;
 }
