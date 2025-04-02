@@ -94,6 +94,10 @@
 
 	.social-icon.amazon { color: #FF9900; } /* Amazon color */
 
+	.fa-mug-saucer { color: #B05D0B; }
+	.fa-cannabis { color: #34B00B; }
+	.fa-heart { color: #D60606; }
+
 	.flag {
 		display: inline;
 		padding: 1px 3px;
