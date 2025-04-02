@@ -73,7 +73,7 @@
 		gap: 16px;
         }
         .social-icon {
-		font-size: 18px;
+		font-size: 16px;
 		color: lightgray; /* Default color */
         }
 
@@ -101,6 +101,7 @@
 	.flag {
 		display: inline;
 		padding: 1px 3px;
+		margin: 2px;
 		color: #D10000; 
 		background: white;
 		border-left: 7px solid #D10000; /* Red left border */
