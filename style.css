@@ -95,11 +95,10 @@
 
 	.flag {
 		display: inline;
-		justify-content: center;
 		align-items: center;
 		background: white;
-		border-left: 10px solid #D10000; /* Red left border */
-		border-right: 10px solid #D10000; /* Red right border */
-	.mapleleaf {
+		border-left: 7px solid #D10000; /* Red left border */
+		border-right: 7px solid #D10000; /* Red right border */
 		color: #D10000; 
+		weight: bold;
 	}
