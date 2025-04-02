@@ -100,9 +100,9 @@
 	.fa-heart { color: #D60606; }
 
 	.flag {
-		display: inline;
+		display: block;
 		padding: 1px 3px;
-		margin: 10px;
+		margin: 5px;
 		color: #D10000; 
 		background: white;
 		border-left: 7px solid #D10000; /* Red left border */
