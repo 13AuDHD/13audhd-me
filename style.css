@@ -70,10 +70,10 @@
         .social-icons {
 		display: flex;
 		justify-content: center;
-		gap: 18px;
+		gap: 16px;
         }
         .social-icon {
-		font-size: 24px;
+		font-size: 18px;
 		color: lightgray; /* Default color */
         }
 
