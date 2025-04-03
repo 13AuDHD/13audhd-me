@@ -35,9 +35,12 @@ a:visited {
 }
 	
 .name {
-	font: normal 400 2.25em "Mr Dafoe", cursive;
+	font: normal 400 4em "Mr Dafoe", cursive;
 	color: #FFF;
 	text-align: center;
+	line-height: 1; /* Prevent excessive height growth */
+	max-height: 50px; /* Set a cap for how much it expands */
+	overflow: hidden;
 	margin-bottom: 10px;
 }
 	
