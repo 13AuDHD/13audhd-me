@@ -40,7 +40,6 @@ a:visited {
 	text-align: center;
 	line-height: 1; /* Prevent excessive height growth */
 	max-height: 50px; /* Set a cap for how much it expands */
-	overflow: hidden;
 	margin-bottom: 10px;
 }
 	
