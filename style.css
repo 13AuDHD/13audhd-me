@@ -31,7 +31,7 @@ a:visited {
 	border-radius: 50%;
 	object-fit: cover;
 	border: 2px solid #333;
-	margin: 25px auto 10px;
+	margin: 25px auto -10px;
 }
 	
 .name {
