@@ -83,10 +83,10 @@ button:hover {
 .social-icons {
 	display: flex;
 	justify-content: center;
-	gap: 14px;
+	gap: 16px;
 }
 .social-icon {
-	font-size: 22px;
+	font-size: 24px;
 	color: lightgray; /* Default color */
 }	
 .social-icon:hover {
