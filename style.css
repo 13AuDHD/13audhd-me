@@ -74,6 +74,10 @@ button {
 }
 button:hover {
 }
+
+.fa-button {
+	padding-right: 10px;
+}
 	
 .footer {
 	font-size: 12px;
