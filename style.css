@@ -77,6 +77,14 @@ button {
 button:hover {
 }
 
+.icon-logo {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+	padding-right: 10px;
+}
+
 .fa-button {
 	padding-right: 10px;
 }
