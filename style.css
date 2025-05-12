@@ -30,7 +30,7 @@ a:visited {
 	height: 120px;
 	border-radius: 50%;
 	object-fit: cover;
-	border: 2px solid #333;
+	border: 2px solid #CCC;
 	margin: 25px auto -10px;
 }
 	
@@ -81,6 +81,7 @@ button:hover {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
+	border: 2px solid #CCC;
 	object-fit: cover;
 	vertical-align: middle;
 	margin-right: 10px;
