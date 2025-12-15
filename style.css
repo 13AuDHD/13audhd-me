@@ -127,7 +127,7 @@ button:hover {
 .fa-cannabis { color: #34B00B; } /* green leaf */ 
 .fa-heart { color: #D60606; } /* red heart */
 	
-.flag { /* Canadian Flag in CSS */
+.flag-ca { /* Canadian Flag in CSS */
 	display: inline-block;
 	padding: 2px 3px;
 	margin: 5px;
@@ -136,6 +136,16 @@ button:hover {
 	border-left: 7px solid #D10000;
 	border-right: 7px solid #D10000;
 }
+
+.flag-pa {
+    width: 1.5em; 
+	height: 1em; 
+	position: relative; 
+	display: inline-block; 
+	vertical-align: middle; 
+	margin-left: 0.5em;
+}
+
 
 .signature {
 	display: block;
