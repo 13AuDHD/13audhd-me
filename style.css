@@ -101,7 +101,7 @@ button:hover {
 .social-icons {
 	display: flex;
 	justify-content: center;
-	gap: 16px;
+	gap: 15px;
 }
 .social-icon {
 	font-size: 24px;
