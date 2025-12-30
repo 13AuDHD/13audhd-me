@@ -65,7 +65,8 @@
                 <i class="fa-brands fa-amazon fa-button"></i>&nbsp;my Amazon wishlist
             </button>
         </a>
-        <a href="//open.spotify.com/user/31bssaktzew2m6n2heuy47eltwtq?si=yHB4Qf6_RtaksFypnrMHgQ" target="_blank">
+        <!-- a href="//open.spotify.com/user/31bssaktzew2m6n2heuy47eltwtq?si=yHB4Qf6_RtaksFypnrMHgQ" target="_blank" -->
+        <a href="#" onclick="openSpotify(); return false;">
             <button type="button" name="link-out">
                 <i class="fa-brands fa-spotify fa-button"></i>&nbsp;my Spotify playlists
             </button>
@@ -95,5 +96,18 @@
             <br />hosted on Github Pages. here's the <a href="//github.com/13AuDHD/13audhd-me" target="_blank">Source Code</a></p>
         <p><a href="/privacy.html" target="_blank">privacy policy</a> | <a href="/tos.html" target="_blank">terms of use</a> | <a href="/subscriptions.html" target="_blank">subscriptions</a></p>
     </div>
+
+<script>
+function openSpotify() {
+  const appLink = "spotify:user:31bssaktzew2m6n2heuy47eltwtq";
+  const webLink = "https://open.spotify.com/user/31bssaktzew2m6n2heuy47eltwtq";
+
+  window.location = appLink;
+
+  setTimeout(() => {
+    window.location = webLink;
+  }, 500);
+}
+</script>
 </body>
 </html>
